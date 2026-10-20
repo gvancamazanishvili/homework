@@ -1,0 +1,100 @@
+@font-face {
+    font-family: texts;
+    src: url(./fonts/AsapSharp-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'texts';
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100;
+    padding: 0 20px 0 20px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    font-size: 18px;
+}
+#home{
+    text-decoration: 1px underline #000;
+}
+#web-title{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    font-size: 23px;
+    font-weight: 400;
+}
+#logo{
+    width: 100px;
+}
+
+#shopping{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+}
+.left{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.icons{
+    width: 30px;
+}
+.left:nth-child(2){
+    gap: 5px;
+}
+/* მას მე ეს წინა დავალებაშიც გამოვიყენე :) */
+
+main{
+    text-align: center;
+    margin: 80px;
+}
+
+main h1{
+    font-weight: 400;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: start;
+    gap: 20px;
+}
+
+.cards{
+    width: 400px;
+    min-height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.items{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.item-name{
+    padding: 5px 0px 0px 10px;
+    background-color: #412719;
+    height: 30px;
+    color: white;
+    margin-top: 0px;
+    font-weight: 300;
+}
